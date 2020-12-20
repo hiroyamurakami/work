@@ -1,9 +1,6 @@
 require 'test_helper'
 
 class OrdersControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
 
   test "should get index" do
     get orders_index_url
@@ -19,5 +16,6 @@ class OrdersControllerTest < ActionDispatch::IntegrationTest
     get orders_update_url
     assert_response :success
   end
+
 
 end

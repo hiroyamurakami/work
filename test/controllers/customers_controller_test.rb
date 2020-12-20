@@ -2,6 +2,7 @@ require 'test_helper'
 
 class CustomersControllerTest < ActionDispatch::IntegrationTest
 
+
   # test "the truth" do
   #   assert true
   # end
@@ -24,4 +25,5 @@ class CustomersControllerTest < ActionDispatch::IntegrationTest
     get customers_update_url
     assert_response :success
   end
+
 end
